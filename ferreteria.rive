@@ -1,0 +1,155 @@
+
+! version = 2.0
+
++ [*](hola|hello|ola)[*]
+- Hola soy el bot de la ferreteria el tornillo feliz\n 
+^ en que puedo ayudarte? \n
+^ \n
+
++ [*] como estas [*]
+- Estoy bien, gracias por preguntar\n
+^ En que te puedo ayudar?\n
+^ \n
+
+
++ [*](productos|producto)[*]
+- Claro que si, Seleccione una categoria\n
+^ \n
+^ * agua \n
+^ * electricidad \n
+^ * pintura \n
+^ * herramientas \n
+^ \n
+
+
++ [*] (compra|compras|comprar)[*]
+- Que prodcutos desea comprar? \n 
+^ Seleccione una categoria \n 
+^ \n 
+^ * agua \n
+^ * electricidad \n
+^ * pintura \n
+^ * herramientas \n
+^ \n
+
++ [*](telefono|cel|celular|telf|numero|contacto|contactarme|hablar|comunicarme)[*]
+- Escribenos o llamanos al 943-233-424 \n
+^ \n
+^ Hay algo mas en lo que te pueda ayudar?\n
+^ \n
+
+
++ [*](entregas|a domicilio|delivery|envio|envios)[*]
+- Estregas de lunes a viernes de 10:00 am a 4:00 pm
+^ \n
+^ Hay algo mas en lo que te pueda ayudar?\n
+^ \n
+
++ [*] (horario|horarios|atienden|atencion) [*]
+- Nuestros horarios de atencion \n
+^ \n
+^ lunes 9:00 am - 6:00 pm \n
+^ martes 9:00 am - 6:00 pm\n
+^ miercoles 9:00 am - 6:00 pm\n
+^ jueves 9:00 am - 6:00 pm\n
+^ viernes 9:00 am - 6:00 pm\n
+^ sabado 9:00 am - 1:00 pm\n
+^ \n
+^ Hay algo mas en lo que te pueda ayudar?\n
+^ \n
+
++ pintura
+- Aqui tienes nuestros produtos relacionados a pintura \n
+^ \n
+^ * Esmalte \n
+^ * Pintura de pared \n
+^ * Rodillos \n
+^ * Brochas \n
+^ * Tinner \n
+^ * Pintura de piso \n
+^ \n
+^ Cual producto te gustaria comprar?\n
+^ \n
+
++ [*](esmalte|pintura de pared|rodillos|brochas|pintura de piso|tinner)[*]
+- Buena eleccion, Nuestro personal se pondra en contacto contigo para continuar la comprar\n
+^ \n
+^ Hay algo mas en lo que te pueda ayudar?\n
+
++ herramientas
+- Aqui tienes nuestros producto relacionados a herramientas \n
+^ \n
+^ * Llaves \n
+^ * Alicates \n
+^ * Destornilladores  \n
+^ * Limas  \n
+^ * Martillos  \n
+^ * Combas \n
+^ \n
+^ Cual producto te gustaria comprar?\n
+^ \n
+
++ [*](llaves|alicates|destornilladores|limas|martillos|combas)[*]
+- Buena eleccion, Nuestro personal se pondra en contacto contigo para continuar la comprar\n
+^ \n
+^ Hay algo mas en lo que te pueda ayudar?\n
+^ \n
+
+
++ agua
+- Aqui tiene nuestros productos relacionados al agua \n
+^ \n
+^ * Tuberias \n
+^ adaptadores  \n
+^ * codos  \n
+^ * pegamentos  \n
+^ * teflon  \n
+^ \n
+^ Cual producto te gustaria comprar?\n
+^ \n
+
++ [*](tuberias|adaptadores|codos|pegamentos|teflon)[*]
+- Buena eleccion, Nuestro personal se pondra en contacto contigo para continuar la comprar\n
+^ \n
+^ Hay algo mas en lo que te pueda ayudar?\n
+^ \n
+
++ electricidad 
+- Aqui tienes nuestros prodcutos relacionados a la electricidad\n
+^ \n
+^ * interruptores  \n
+^ * Cables  \n
+^ * Tomacorrientes  \n
+^ * Enchufes  \n
+^ * Focos  \n
+^ * Soquets  \n
+^ \n
+^ Cual producto te gustaria comprar?\n
+^ \n
+
++ [*](interruptores|cables|tomacorrientes|enchufes|focos|soquets)[*]
+- Buena eleccion, Nuestro personal se pondra en contacto contigo para continuar la comprar\n
+^ \n
+^ Hay algo mas en lo que te pueda ayudar?\n
+^ \n
+
++ si
+- Dime en que mas puedo ayudarte? \n
+^ \n
+
++ [*]gracias[*]
+- Recuerda que estoy aqui para ayudarte!\n
+^ \n
+^ Hay algo mas en lo que te pueda ayudar?\n
+^ \n
+
++ no
+- Ha sido un gusto haberte ayudado, vuelve pronto! \n
+
+
++ *
+- disculpa, no entendi tu pregunta, intenta preguntar de otra manera \n
+^ \n
+
+
+
